@@ -7,6 +7,7 @@ import Topbar from "./scenes/global/Topbar";
 import Dashboard from "./scenes/dashboard";
 import Team from "./scenes/team";
 import Contacts from "./scenes/contacts";
+import Invoices from "./scenes/invoices";
 
 
 export default function App() {
@@ -25,6 +26,7 @@ export default function App() {
               <Route path="/" element={<Dashboard />} />
               <Route path="/team" element={<Team />} />
               <Route path="/contacts" element={<Contacts />} />
+              <Route path="/invoices" element={<Invoices />} />
             </Routes>
           </main>
         </div>
