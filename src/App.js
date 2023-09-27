@@ -8,6 +8,8 @@ import Dashboard from "./scenes/dashboard";
 import Team from "./scenes/team";
 import Contacts from "./scenes/contacts";
 import Invoices from "./scenes/invoices";
+import Form from "./scenes/form"
+import Calendar from "./scenes/calendar/calendar";
 
 
 export default function App() {
@@ -27,6 +29,8 @@ export default function App() {
               <Route path="/team" element={<Team />} />
               <Route path="/contacts" element={<Contacts />} />
               <Route path="/invoices" element={<Invoices />} />
+              <Route path="/form" element={<Form />} />
+              <Route path="/calendar" element={<Calendar />} />
             </Routes>
           </main>
         </div>
