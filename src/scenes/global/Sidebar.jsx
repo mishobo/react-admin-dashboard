@@ -106,7 +106,7 @@ export default function Sidebar() {
                   fontWeight="bold"
                   sx={{ m: "10px 0 0 0" }}
                 >
-                  Ed Roh
+                  Abdallah
                 </Typography>
                 <Typography variant="h5" color={colors.greenAccent[500]}>
                   VIP Fancy Admin
